@@ -1,11 +1,26 @@
-/* цвет основного текста #757575 */
-/* вторичный цвет текста #212121 */
+/* цвет основного текста #212121 */
+/* вторичный цвет текста #757575 */
 /* белый #FFFFFF */
 /* акцент #2196F3 */
-/*первичный цвет фона #E5E5E5*/
+/* первичный цвет фона #E5E5E5* /
 /* вторичный цвет фона #F5F4FA */
+/* темный цвет фона #2F303A */
+
 :root {
-    --primery-text color:
-    --title-text-color:
-    --accent-color:
+  --sec-background-color: #f5f4fa;
+  --dark-background-color: #2f303a;
+
+  --primery-text-color: #212121;
+  --sec-text-color: #757575;
+  --accent-color: #2196f3;
+}
+
+body {
+  background-color: #e5e5e5;
+  font-family: Roboto, sens-serif;
+}
+
+.nav-title,
+.footer-link {
+  font-family: Raleway, sens-serif;
 }
